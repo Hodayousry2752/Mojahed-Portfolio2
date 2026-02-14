@@ -163,8 +163,8 @@ export default function Navbar() {
                 </div>
               </div>
 
-              {/* LINKS */}
-              <div className="flex flex-col gap-12 mt-24">
+              {/* LINKS مع إمكانية التمرير */}
+              <div className="flex flex-col gap-12 mt-24 flex-1 overflow-y-auto">
                 {links.map((link, i) => (
                   <motion.div
                     key={link.to}
@@ -175,7 +175,7 @@ export default function Navbar() {
                     <NavLink
                       to={link.to}
                       onClick={() => setMobileOpen(false)}
-                      className="text-3xl uppercase tracking-widest text-white/70 hover:text-primary transition"
+                      className="text-2xl sm:text-3xl uppercase tracking-widest text-white/70 hover:text-primary transition"
                     >
                       {link.label}
                     </NavLink>
