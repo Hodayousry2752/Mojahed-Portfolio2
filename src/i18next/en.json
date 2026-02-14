@@ -1,0 +1,291 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "gallery": "Gallery",
+    "drone": "Drone Gallery",
+    "contact": "Contact"
+  },
+  "title": {
+    "part1": "Premium",
+    "highlight": "Digital",
+    "part2": "Experience",
+    "cta": "View Projects"
+  },
+  "hero": {
+    "titleA": "About Me",
+    "subtitle": "Software Engineer & Digital Media Specialist, delivering integrated solutions that blend technology and creativity through premium commercial photography and professional content creation."
+  },
+  "aboutNarrative": {
+    "label": "Professional Overview",
+    "main": "Software Engineer & Digital Media Specialist, focused on delivering integrated solutions that merge technical precision with creative storytelling. My work centers on premium commercial photography and professional content creation that helps brands communicate their identity clearly and effectively."
+  },
+  "heroHighlights": {
+    "items": [
+      {
+        "title": "Tech Meets Creativity",
+        "description": "Transforming technical ideas into visually compelling digital content."
+      },
+      {
+        "title": "Cinematic Direction",
+        "description": "Professional photography and video production with cinematic quality."
+      },
+      {
+        "title": "End-to-End Solutions",
+        "description": "From concept to execution using modern tools and workflows."
+      },
+      {
+        "title": "Tailored Content",
+        "description": "Custom-made content optimized for platforms and user experience."
+      }
+    ]
+  },
+  "fullStory": {
+    "title": "About My Journey",
+    "part1Short": "I'm a Software Engineer & Digital Media Specialist delivering premium visual content.",
+    "part1": "I am a Software Engineer and Digital Media Specialist, focused on creating premium visual content that blends technical precision with creative storytelling. My work centers on commercial photography, professional video editing, and tailored social media content that helps brands communicate their identity clearly and effectively.",
+    "part2Short": "I produce impactful short videos tailored for social media platforms.",
+    "part2": "I bring hands-on experience across a wide range of projects, from advertising and product photography to producing short, impactful videos designed specifically for social media platforms, with strong attention to detail, lighting, and visual direction.",
+    "part3Short": "I combine technical expertise with visual creativity.",
+    "part3": "What sets me apart is my ability to merge a strong technical background with visual creativity, allowing me to understand client objectives and transform ideas into high-quality content built for real marketing performance—not just visually appealing videos.",
+    "part4Short": "I work with professional-grade equipment ensuring top quality.",
+    "part4": "I work with professional-grade equipment to ensure exceptional image and sound quality, offering full flexibility in production, whether in studio environments or on-location shoots.",
+    "showMore": "Show More",
+    "showLess": "Show Less"
+  },
+  "story": "I specialize in creating premium visual and digital experiences that merge technical precision with creative direction.",
+  "info": [
+    {
+      "icon": "MapPin",
+      "text": "Based in Jordan"
+    },
+    {
+      "icon": "Laptop",
+      "text": "Software Engineer & Digital Media Specialist"
+    },
+    {
+      "icon": "Film",
+      "text": "Passionate about cinematic storytelling and visual design"
+    },
+    {
+      "icon": "Camera",
+      "text": "Experienced in photography, video, and frontend development"
+    }
+  ],
+  "highlights": {
+    "title": "Highlights",
+    "subtitle": "A collection of skills and areas where I excel to deliver premium digital content",
+    "photography": "Commercial & product photography with cinematic lighting.",
+    "video": "Professional video editing and visual storytelling.",
+    "development": "Frontend development with motion-driven interfaces."
+  },
+  "slides": [
+    "Precision cinematic stabilization for smooth professional footage.",
+    "Capture high-quality aerial views with cinematic motion.",
+    "Advanced gimbal motion for filmmakers and creators.",
+    "Detailed shots capturing every angle with clarity.",
+    "Versatile product shots for premium web experiences.",
+    "High-quality visual storytelling inspired by DJI."
+  ],
+  "skills": {
+    "title": "Tools & Skills",
+    "subtitle": "A blend of professional gear and technical expertise powering premium production",
+    "sections": {
+      "gear": "Production Gear",
+      "software": "Editing & Design Software",
+      "development": "Development Skills"
+    },
+    "gear": [
+      "Sony Alpha 7 IV",
+      "DJI 360 Camera",
+      "DJI Mavic 3 Pro Drone",
+      "DJI RS 4",
+      "Professional Lighting Equipment",
+      "DJI Microphone"
+    ],
+    "software": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects",
+      "DaVinci Resolve",
+      "Adobe Photoshop",
+      "Adobe Illustrator"
+    ],
+    "development": [
+      "React & TypeScript",
+      "Framer Motion Animations",
+      "Responsive UI Design",
+      "Frontend Performance Optimization"
+    ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "A career blending software engineering with cinematic visual creativity",
+    "timeline": [
+      {
+        "role": "Software Engineer & Digital Media Specialist",
+        "company": "Freelance",
+        "period": "2021 - Present",
+        "points": [
+          "Delivered cinematic commercial and product photography projects.",
+          "Produced short-form video content tailored for social media platforms.",
+          "Designed and developed interactive frontend experiences using React & TypeScript.",
+          "Combined technical execution with visual direction to achieve real marketing goals."
+        ],
+        "icon": "laptop"
+      },
+      {
+        "role": "Visual Content Creator",
+        "company": "Commercial & Advertising Projects",
+        "period": "2019 - 2021",
+        "points": [
+          "Produced high-quality visual content for commercial brands.",
+          "Managed lighting, composition, and creative direction.",
+          "Edited videos using Adobe Premiere Pro and After Effects.",
+          "Created tailored content for social media platforms."
+        ],
+        "icon": "camera"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Feel free to reach out for creative projects or technical collaborations",
+    "phone": "Phone Number",
+    "whatsapp": "WhatsApp",
+    "email": "Email Address",
+    "socials": "Social Links",
+    "note": "Available for professional collaborations"
+  },
+  "footer": {
+    "description": "Software Engineer & Digital Media Specialist, delivering integrated solutions that blend technology and creativity through premium commercial photography and professional content creation.",
+    "contact": "Contact",
+    "follow": "Follow",
+    "rights": "Mojahed Asha. All rights reserved.",
+    "signature": "Built with precision & taste."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Professional visual content across multiple industries",
+    "categories": {
+      "realEstate": {
+        "title": "Real Estate & Development",
+        "description": "Cinematic visual content that highlights property value and architectural spaces.",
+        "tags": ["Architectural Design", "Facades", "Interior Design"]
+      },
+      "commercial": {
+        "title": "Commercial & Retail Brands",
+        "description": "Creative content that reflects brand identity and enhances product experience.",
+        "tags": ["Retail Stores", "Shopping Centers", "Restaurants"]
+      },
+      "industrial": {
+        "title": "Industrial",
+        "description": "Professional visuals documenting industrial processes and production quality.",
+        "tags": ["Factories", "Warehouses", "Production Areas"]
+      },
+      "medical": {
+        "title": "Medical & Wellness",
+        "description": "Trust-driven visuals combining professionalism and aesthetic care.",
+        "tags": ["Hospitals", "Clinics", "Treatment Centers"]
+      },
+      "corporate": {
+        "title": "Corporate Coverage & Events",
+        "description": "Professional coverage of events, conferences, and sports occasions, capturing key moments and conveying the event's atmosphere through a dynamic style that reflects brand strength.",
+        "tags": ["Offices", "Companies", "Meeting Rooms"]
+      },
+      "motion": {
+        "title": "Motion Graphics",
+        "description": "",
+        "tags": ["Animation", "Graphics", "Visual Effects"]
+      }
+    },
+    "logoDesigns": {
+      "title": "Logo & Brand Designs",
+      "subtitle": "Professional logo designs that communicate brand identity"
+    },
+    "viewVideos": "View Videos",
+    "viewAll": "View All"
+  },
+  "droneGallery": {
+    "title": "Drone Photography Gallery",
+    "subtitle": "Professional 4K aerial shots",
+    "stats": {
+      "totalVideos": "Total Videos",
+      "totalDuration": "Total Duration",
+      "locations": "Locations",
+      "longestVideo": "Longest Video"
+    },
+    "searchPlaceholder": "Search drone videos...",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "date": "Latest",
+      "duration": "Duration",
+      "name": "Name",
+      "location": "Location"
+    },
+    "viewModes": {
+      "grid": "Grid View",
+      "list": "List View"
+    },
+    "videoInfo": {
+      "duration": "Duration",
+      "location": "Location",
+      "date": "Date",
+      "resolution": "Resolution",
+      "altitude": "Altitude"
+    },
+    "controls": {
+      "play": "Play",
+      "pause": "Pause",
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit Fullscreen",
+      "download": "Download",
+      "share": "Share",
+      "close": "Close"
+    },
+    "noResults": "No videos match your search",
+    "resetSearch": "Show all videos",
+    "loading": "Loading video",
+    "featured": "Featured",
+    "comingSoon": "Upcoming project?",
+    "contactCta": "Let's work together to create stunning drone content for your project"
+  },
+  "logoGallery": {
+    "stats": {
+      "totalDesigns": "Total Logo Designs",
+      "uniqueCategories": "Unique Categories",
+      "filterStatus": {
+        "all": "All Designs",
+        "inCategory": "In {category}"
+      }
+    },
+    "searchPlaceholder": "Search logo designs by name, description, or category...",
+    "viewToggle": {
+      "grid": "Grid",
+      "list": "List"
+    },
+    "browseByCategory": "Browse by Category",
+    "designsAvailable": "{count} designs available",
+    "allCategories": "All Categories",
+    "showLess": "Show Less",
+    "showMore": "+{count} More",
+    "resetFilter": "Reset Filter",
+    "resultsInfo": "Showing {showing} of {total} logo designs",
+    "resultsInfoWithCategory": "Showing {showing} of {total} logo designs in \"{category}\"",
+    "clearSearch": "Clear search",
+    "emptyState": {
+      "title": "No logo designs found",
+      "noMatch": "No designs match \"{search}\"",
+      "noCategory": "No designs in \"{category}\" category",
+      "noneAvailable": "No designs available at the moment",
+      "showAllButton": "Show All Designs"
+    },
+    "imageFallback": "Image not available",
+    "featured": "Featured",
+    "pagination": {
+      "pageInfo": "Page {current} of {total}"
+    }
+  }
+}
