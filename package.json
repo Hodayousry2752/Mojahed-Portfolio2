@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://USERNAME.github.io/Portfolio-Mojahed",
+  "homepage": "https://USERNAME.github.io/Mojahed-Portfolio2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist" 
+  "deploy": "gh-pages -d dist"
    },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
