@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import LanguageSwitcher from "../common/LanguageSwitcher";
-import logo from "../../assets/images/logo.jfif";
+import logo from "../../assets/images/logo.jpg";
 
 export default function Navbar() {
   const { t } = useTranslation();
