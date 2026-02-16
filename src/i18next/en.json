@@ -202,8 +202,8 @@
       }
     },
     "logoDesigns": {
-      "title": "Logo & Brand Designs",
-      "subtitle": "Professional logo designs that communicate brand identity"
+      "title": "Clients & Brand Logos",
+      "subtitle": "Logos of companies, institutions, and clients I’ve had the privilege to work with"
     },
     "viewVideos": "View Videos",
     "viewAll": "View All"
@@ -254,38 +254,38 @@
   },
   "logoGallery": {
     "stats": {
-      "totalDesigns": "Total Logo Designs",
+      "totalDesigns": "Total Client Logos",
       "uniqueCategories": "Unique Categories",
       "filterStatus": {
         "all": "All Designs",
-        "inCategory": "In {category}"
+        "inCategory": "In {{category}}"
       }
     },
-    "searchPlaceholder": "Search logo designs by name, description, or category...",
+    "searchPlaceholder": "Search client logos by name, description, or category...",
     "viewToggle": {
       "grid": "Grid",
       "list": "List"
     },
     "browseByCategory": "Browse by Category",
-    "designsAvailable": "{count} designs available",
+    "designsAvailable": "{{count}} logos available",
     "allCategories": "All Categories",
     "showLess": "Show Less",
-    "showMore": "+{count} More",
+    "showMore": "+{{count}} More",
     "resetFilter": "Reset Filter",
-    "resultsInfo": "Showing {showing} of {total} logo designs",
-    "resultsInfoWithCategory": "Showing {showing} of {total} logo designs in \"{category}\"",
+    "resultsInfo": "Showing {{showing}} of {{total}} client logos",
+    "resultsInfoWithCategory": "Showing {{showing}} of {{total}} client logos in \"{{category}}\"",
     "clearSearch": "Clear search",
     "emptyState": {
-      "title": "No logo designs found",
-      "noMatch": "No designs match \"{search}\"",
-      "noCategory": "No designs in \"{category}\" category",
-      "noneAvailable": "No designs available at the moment",
-      "showAllButton": "Show All Designs"
+      "title": "No client logos found",
+      "noMatch": "No logos match \"{{search}}\"",
+      "noCategory": "No logos in \"{{category}}\" category",
+      "noneAvailable": "No client logos available at the moment",
+      "showAllButton": "Show All Logos"
     },
     "imageFallback": "Image not available",
     "featured": "Featured",
     "pagination": {
-      "pageInfo": "Page {current} of {total}"
+      "pageInfo": "Page {{current}} of {{total}}"
     }
   }
 }

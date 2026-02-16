@@ -202,8 +202,8 @@
       }
     },
     "logoDesigns": {
-      "title": "تصميم الشعارات والهويات",
-      "subtitle": "تصاميم شعارات احترافية تعبر عن هوية العلامة التجارية"
+      "title":" شعارات العملاء والشركات",
+      "subtitle":" شعارات الشركات والمؤسسات والعملاء الذين تشرفت بالعمل معهم"
     },
     "viewVideos": "عرض الفيديوهات",
     "viewAll": "عرض الكل"
@@ -254,38 +254,38 @@
   },
   "logoGallery": {
     "stats": {
-      "totalDesigns": "إجمالي تصاميم الشعارات",
+      "totalDesigns": "إجمالي شعارات العملاء",
       "uniqueCategories": "فئات فريدة",
       "filterStatus": {
         "all": "جميع التصاميم",
-        "inCategory": "في {category}"
+        "inCategory": "في {{category}}"
       }
     },
-    "searchPlaceholder": "ابحث في تصاميم الشعارات بالاسم أو الوصف أو الفئة...",
+    "searchPlaceholder": "ابحث في شعارات العملاء بالاسم أو الوصف أو الفئة...",
     "viewToggle": {
       "grid": "شبكة",
       "list": "قائمة"
     },
     "browseByCategory": "تصفح حسب الفئة",
-    "designsAvailable": "{count} تصاميم متاحة",
+    "designsAvailable": "{{count}} شعار متاح",
     "allCategories": "جميع الفئات",
     "showLess": "عرض أقل",
-    "showMore": "+{count} المزيد",
+    "showMore": "+{{count}} المزيد",
     "resetFilter": "إعادة تعيين الفلتر",
-    "resultsInfo": "عرض {showing} من {total} تصميماً",
-    "resultsInfoWithCategory": "عرض {showing} من {total} تصميماً في \"{category}\"",
+    "resultsInfo": "عرض {{showing}} من {{total}} شعار",
+    "resultsInfoWithCategory": "عرض {{showing}} من {{total}} شعار في \"{{category}}\"",
     "clearSearch": "مسح البحث",
     "emptyState": {
-      "title": "لم يتم العثور على تصاميم",
-      "noMatch": "لا توجد تصاميم تطابق \"{search}\"",
-      "noCategory": "لا توجد تصاميم في فئة \"{category}\"",
-      "noneAvailable": "لا توجد تصاميم متاحة حالياً",
-      "showAllButton": "عرض جميع التصاميم"
+      "title": "لم يتم العثور على شعارات",
+      "noMatch": "لا توجد شعارات تطابق \"{{search}}\"",
+      "noCategory": "لا توجد شعارات في فئة \"{{category}}\"",
+      "noneAvailable": "لا توجد شعارات متاحة حالياً",
+      "showAllButton": "عرض جميع الشعارات"
     },
     "imageFallback": "الصورة غير متوفرة",
     "featured": "مميز",
     "pagination": {
-      "pageInfo": "الصفحة {current} من {total}"
+      "pageInfo": "الصفحة {{current}} من {{total}}"
     }
   }
 }

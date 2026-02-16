@@ -4,12 +4,12 @@ import { useTranslation } from "react-i18next";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import AboutNarrativeSection from "../components/home/AboutNarrativeSection";
 
-import img1 from "../assets/images/h1.jpg";
-import img2 from "../assets/images/h2.jpg";
-import img3 from "../assets/images/6-2.png";
-import img4 from "../assets/images/12.png";
-import img5 from "../assets/images/h7.jpg";
-import img6 from "../assets/images/6.jpg";
+import img1 from "../assets/images/H1.jfif";
+import img2 from "../assets/images/H2.jfif";
+import img3 from "../assets/images/H3.jfif";
+import img4 from "../assets/images/H4.jfif";
+import img5 from "../assets/images/H5.jfif";
+// import img6 from "../assets/images/6.jpg";
 
 const slides = [
   { img: img1, key: "slide1" },
@@ -17,7 +17,7 @@ const slides = [
   { img: img3, key: "slide3" },
   { img: img4, key: "slide4" },
   { img: img5, key: "slide5" },
-  { img: img6, key: "slide6" },
+  // { img: img6, key: "slide6" },
 ];
 
 export default function HomeCinematic() {
