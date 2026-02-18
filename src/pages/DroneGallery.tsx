@@ -26,8 +26,8 @@ import {
 } from "lucide-react";
 import { droneVideos } from "../data/droneVideos";
 import droneImg from "../assets/images/drone-img.jfif"
-type SortOption = "date" | "duration" | "name" | "location";
-type ViewMode = "grid" | "list";
+// type SortOption = "date" | "duration" | "name" | "location";
+// type ViewMode = "grid" | "list";
 
 interface DroneVideo {
   id: number;
