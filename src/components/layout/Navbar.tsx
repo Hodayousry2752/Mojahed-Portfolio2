@@ -163,7 +163,7 @@ export default function Navbar() {
                 </div>
               </div>
 
-              {/* LINKS مع إمكانية التمرير */}
+              {/* LINKS */}
               <div className="flex flex-col gap-12 mt-24 flex-1 overflow-y-auto">
                 {links.map((link, i) => (
                   <motion.div

@@ -6,7 +6,7 @@
     "projects": "المشاريع",
     "experience": "الخبرات",
     "gallery": "المعرض",
-    "drone": "معرض الدرون",
+    "drone": "الدرون",
     "contact": "تواصل"
   },
   "title": {
@@ -209,25 +209,11 @@
     "viewAll": "عرض الكل"
   },
   "droneGallery": {
-    "title": "معرض تصوير الدرون",
-    "subtitle": "لقطات جوية احترافية بتقنية 4K",
     "stats": {
       "totalVideos": "إجمالي الفيديوهات",
       "totalDuration": "إجمالي المدة",
       "locations": "المواقع",
       "longestVideo": "أطول فيديو"
-    },
-    "searchPlaceholder": "ابحث في فيديوهات الدرون...",
-    "sortBy": "ترتيب حسب",
-    "sortOptions": {
-      "date": "الأحدث",
-      "duration": "المدة",
-      "name": "الاسم",
-      "location": "الموقع"
-    },
-    "viewModes": {
-      "grid": "عرض شبكي",
-      "list": "عرض قائمة"
     },
     "videoInfo": {
       "duration": "المدة",
@@ -245,12 +231,30 @@
       "share": "مشاركة",
       "close": "إغلاق"
     },
-    "noResults": "لا توجد فيديوهات تطابق بحثك",
-    "resetSearch": "عرض جميع الفيديوهات",
     "loading": "جاري تحميل الفيديو",
     "featured": "مميز",
     "comingSoon": "مشروع قادم؟",
-    "contactCta": "دعنا نعمل معاً لإنشاء محتوى درون مذهل لمشروعك"
+    "contactCta": "تواصل معي",
+    "droneFeatures": {
+      "title": "أفضل درون تصويري",
+      "video": {
+        "title": "تصوير فيديو بجودة عالية",
+        "item1": "5.1K @ 50 إطارًا/ث",
+        "item2": "4K @ 120 إطارًا/ث"
+      },
+      "intelligent": {
+        "title": "ميزات ذكية",
+        "item1": "ActiveTrack 5.0 لتتبع الأهداف بدقة",
+        "item2": "MasterShots لإنشاء مقاطع سينمائية",
+        "item3": "Hyperlapse للتصوير المتسارع",
+        "item4": "10‑bit D-Log & HLG لألوان احترافية"
+      },
+      "flight": {
+        "title": "نظام طيران ثابت ومستقر",
+        "description": "يمكنه العمل بسلاسة في ظروف جوية متنوعة، مما يجعله مثالياً للتصوير الاحترافي."
+      },
+      "conclusion": "هذه الميزات تجعل Mavic 3 Pro واحدة من أفضل طائرات الدرون للأغراض التصويرية والاحترافية."
+    }
   },
   "logoGallery": {
     "stats": {

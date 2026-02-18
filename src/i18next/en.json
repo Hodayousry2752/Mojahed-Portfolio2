@@ -6,7 +6,7 @@
     "projects": "Projects",
     "experience": "Experience",
     "gallery": "Gallery",
-    "drone": "Drone Gallery",
+    "drone": "Drone",
     "contact": "Contact"
   },
   "title": {
@@ -209,25 +209,11 @@
     "viewAll": "View All"
   },
   "droneGallery": {
-    "title": "Drone Photography Gallery",
-    "subtitle": "Professional 4K aerial shots",
     "stats": {
       "totalVideos": "Total Videos",
       "totalDuration": "Total Duration",
       "locations": "Locations",
       "longestVideo": "Longest Video"
-    },
-    "searchPlaceholder": "Search drone videos...",
-    "sortBy": "Sort by",
-    "sortOptions": {
-      "date": "Latest",
-      "duration": "Duration",
-      "name": "Name",
-      "location": "Location"
-    },
-    "viewModes": {
-      "grid": "Grid View",
-      "list": "List View"
     },
     "videoInfo": {
       "duration": "Duration",
@@ -245,12 +231,30 @@
       "share": "Share",
       "close": "Close"
     },
-    "noResults": "No videos match your search",
-    "resetSearch": "Show all videos",
     "loading": "Loading video",
     "featured": "Featured",
     "comingSoon": "Upcoming project?",
-    "contactCta": "Let's work together to create stunning drone content for your project"
+    "contactCta": "Contact me",
+    "droneFeatures": {
+      "title": "Top Cinematic Drone",
+      "video": {
+        "title": "High-Quality Video Recording",
+        "item1": "5.1K @ 50fps",
+        "item2": "4K @ 120fps"
+      },
+      "intelligent": {
+        "title": "Intelligent Features",
+        "item1": "ActiveTrack 5.0 for precise subject tracking",
+        "item2": "MasterShots for cinematic sequences",
+        "item3": "Hyperlapse for time‑lapse",
+        "item4": "10‑bit D-Log & HLG for enhanced color"
+      },
+      "flight": {
+        "title": "Stable & Reliable Flight System",
+        "description": "Operates smoothly in various weather conditions, ideal for professional use."
+      },
+      "conclusion": "These features make the Mavic 3 Pro one of the best drones for professional photography and videography."
+    }
   },
   "logoGallery": {
     "stats": {
