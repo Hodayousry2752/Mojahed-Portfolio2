@@ -9,8 +9,35 @@ export interface LogoDesign {
   imageUrl: string;
 }
 
-
 export const logoDesigns: LogoDesign[] = [
+  // New entry: العطار
+  {
+    id: 40,
+    name: "العطار",
+    category: "Health",
+    color: "#F39C12",
+    description: "Health clinic or medical services",
+    createdAt: "2026-02-28",
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1772257618/95cdfa8d-9690-4b0a-83a1-5ad8ad89a834_srf0h7.jpg",
+  },
+  {
+    id: 21,
+    name: "البعلبكي",
+    category: "Business",
+    color: "#D35400",
+    description: "Family business or enterprise",
+    createdAt: "2024-03-03",
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954921/%D8%A7%D9%84%D8%A8%D8%B9%D9%84%D8%A8%D9%83%D9%8A_fkhilz.png",
+  },
+  {
+    id: 10,
+    name: "Naf",
+    category: "Technology",
+    color: "#16A085",
+    description: "Equipment or engineering company",
+    createdAt: "2024-01-20",
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954738/Naf_l9zozc.png",
+  },
   {
     id: 1,
     name: "48",
@@ -36,7 +63,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#E74C3C",
     description: "Interior decoration and home design",
     createdAt: "2024-03-05",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954071/Decorition_one_bl6f4q.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954071/Decorition_one_bl6f4q.png",
   },
   {
     id: 4,
@@ -45,7 +72,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#9B59B6",
     description: "Health or wellness services",
     createdAt: "2024-01-25",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954433/Extra_scqarz.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954433/Extra_scqarz.png",
   },
   {
     id: 5,
@@ -63,7 +90,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#F1C40F",
     description: "Creative design agency or studio",
     createdAt: "2024-03-12",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954666/Hi_slf4zu.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954666/Hi_slf4zu.png",
   },
   {
     id: 7,
@@ -72,16 +99,16 @@ export const logoDesigns: LogoDesign[] = [
     color: "#D35400",
     description: "Graphic design or creative studio",
     createdAt: "2024-01-30",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954707/Ke_tfbztq.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954707/Ke_tfbztq.png",
   },
   {
     id: 8,
     name: "Majestic",
-    category: "Real Estate", 
+    category: "Real Estate",
     color: "#C0392B",
     description: "Real estate and property development",
     createdAt: "2024-02-22",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954721/majestic_ijymmv.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954721/majestic_ijymmv.png",
   },
   {
     id: 9,
@@ -90,16 +117,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#E67E22",
     description: "Fashion brand or clothing line",
     createdAt: "2024-03-08",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954727/Midway_fv9yac.png"
-  },
-  {
-    id: 10,
-    name: "Naf",
-    category: "Technology",
-    color: "#16A085",
-    description: "Equipment or engineering company",
-    createdAt: "2024-01-20",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954738/Naf_l9zozc.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954727/Midway_fv9yac.png",
   },
   {
     id: 11,
@@ -108,7 +126,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#27AE60",
     description: "Sports equipment or athletic brand",
     createdAt: "2024-02-14",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954753/one_run_2_u47zc0.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954753/one_run_2_u47zc0.png",
   },
   {
     id: 12,
@@ -117,7 +135,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#2ECC71",
     description: "Running club or fitness center",
     createdAt: "2024-03-01",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954769/one_run_rbtji3.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954769/one_run_rbtji3.png",
   },
   {
     id: 13,
@@ -126,7 +144,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#2980B9",
     description: "Furniture or home design business",
     createdAt: "2024-01-28",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954786/parametric_png_quuno8.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954786/parametric_png_quuno8.png",
   },
   {
     id: 14,
@@ -135,16 +153,16 @@ export const logoDesigns: LogoDesign[] = [
     color: "#8E44AD",
     description: "Design studio or creative agency",
     createdAt: "2024-02-05",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954798/Po_bgccg2.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954798/Po_bgccg2.png",
   },
   {
     id: 15,
     name: "Ros",
-    category: "Real Estate", 
+    category: "Real Estate",
     color: "#D35400",
     description: "Villas and chalets real estate",
     createdAt: "2024-03-15",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954810/Ros_zc84yg.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954810/Ros_zc84yg.png",
   },
   {
     id: 16,
@@ -153,7 +171,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#E74C3C",
     description: "Fitness and training services",
     createdAt: "2024-01-18",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954820/Run_tsjlzj.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954820/Run_tsjlzj.png",
   },
   {
     id: 17,
@@ -162,7 +180,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#3498DB",
     description: "Smart sports equipment or fitness tech",
     createdAt: "2024-02-25",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954843/Smart_c5xdtw.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954843/Smart_c5xdtw.png",
   },
   {
     id: 18,
@@ -171,7 +189,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#2C3E50",
     description: "Fashion brand or clothing store",
     createdAt: "2024-03-10",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954855/Wis_evme5t.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954855/Wis_evme5t.png",
   },
   {
     id: 19,
@@ -180,25 +198,16 @@ export const logoDesigns: LogoDesign[] = [
     color: "#1ABC9C",
     description: "Health clinic or medical services",
     createdAt: "2024-01-22",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954868/%D8%A7%D8%AD%D9%85%D8%AF_l3wapq.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954868/%D8%A7%D8%AD%D9%85%D8%AF_l3wapq.png",
   },
   {
     id: 20,
     name: "الامور",
-    category: "Food & Beverage", 
+    category: "Food & Beverage",
     color: "#7F8C8D",
     description: "Food and beverage business",
     createdAt: "2024-02-08",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954899/%D8%A7%D9%84%D8%A7%D9%85%D9%88%D8%B1_ffdhoa.png"
-  },
-  {
-    id: 21,
-    name: "البعلبكي",
-    category: "Business",
-    color: "#D35400",
-    description: "Family business or enterprise",
-    createdAt: "2024-03-03",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954921/%D8%A7%D9%84%D8%A8%D8%B9%D9%84%D8%A8%D9%83%D9%8A_fkhilz.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954899/%D8%A7%D9%84%D8%A7%D9%85%D9%88%D8%B1_ffdhoa.png",
   },
   {
     id: 22,
@@ -207,7 +216,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#8B4513",
     description: "Coffee shop or café business",
     createdAt: "2024-01-17",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954931/%D8%A7%D9%84%D8%A8%D9%86_%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A_zjawm2.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954931/%D8%A7%D9%84%D8%A8%D9%86_%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84%D9%8A_zjawm2.png",
   },
   {
     id: 23,
@@ -216,16 +225,16 @@ export const logoDesigns: LogoDesign[] = [
     color: "#CD853F",
     description: "Restaurant or food services",
     createdAt: "2024-03-07",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954940/%D8%A7%D9%84%D9%83%D9%88%D8%AE_zoug9k.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954940/%D8%A7%D9%84%D9%83%D9%88%D8%AE_zoug9k.png",
   },
   {
     id: 24,
     name: "المستشارون",
-    category: "General Services", 
+    category: "General Services",
     color: "#34495E",
     description: "Water purification and environmental services",
     createdAt: "2024-01-29",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954952/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D9%88%D9%86_ffihsi.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954952/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D9%88%D9%86_ffihsi.png",
   },
   {
     id: 25,
@@ -234,7 +243,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#7F8C8D",
     description: "Local business or services",
     createdAt: "2024-02-11",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954963/%D8%A7%D9%84%D9%85%D9%88%D8%B1%D9%82%D9%8A_ls5u1f.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954963/%D8%A7%D9%84%D9%85%D9%88%D8%B1%D9%82%D9%8A_ls5u1f.png",
   },
   {
     id: 26,
@@ -243,7 +252,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#3498DB",
     description: "Technology or electronics company",
     createdAt: "2024-03-14",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954973/%D8%A7%D9%88%D9%85%D9%8A%D8%BA%D8%A7_cwzpok.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770954973/%D8%A7%D9%88%D9%85%D9%8A%D8%BA%D8%A7_cwzpok.png",
   },
   {
     id: 27,
@@ -252,7 +261,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#F1C40F",
     description: "Furniture store or home furnishings",
     createdAt: "2024-01-24",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955044/%D8%AA%D8%A7%D8%AC_fybn4a.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955044/%D8%AA%D8%A7%D8%AC_fybn4a.png",
   },
   {
     id: 28,
@@ -261,7 +270,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#27AE60",
     description: "Home furniture and interior design",
     createdAt: "2024-02-16",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955057/%D8%AD%D9%85%D8%B2%D9%87_qxhwyh.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955057/%D8%AD%D9%85%D8%B2%D9%87_qxhwyh.png",
   },
   {
     id: 29,
@@ -270,7 +279,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#9B59B6",
     description: "Real estate or property company",
     createdAt: "2024-03-06",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955080/%D8%AF%D8%A7%D8%B1_%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85_csikhx.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955080/%D8%AF%D8%A7%D8%B1_%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85_csikhx.png",
   },
   {
     id: 30,
@@ -279,7 +288,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#FFD700",
     description: "General business or services",
     createdAt: "2024-01-19",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955090/%D8%AF%D9%87%D8%A8_bzyu6b.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955090/%D8%AF%D9%87%D8%A8_bzyu6b.png",
   },
   {
     id: 31,
@@ -288,7 +297,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#E74C3C",
     description: "Lighting and home fixtures",
     createdAt: "2024-02-21",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955113/%D8%B1%D8%A7%D9%85%D9%8A_sluc1r.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955113/%D8%B1%D8%A7%D9%85%D9%8A_sluc1r.png",
   },
   {
     id: 32,
@@ -297,16 +306,16 @@ export const logoDesigns: LogoDesign[] = [
     color: "#C0392B",
     description: "Eastern sweets and desserts shop",
     createdAt: "2024-03-13",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955126/%D8%B1%D9%88%D8%B9%D8%A9_%D8%A7%D9%84%D8%B4%D8%B1%D9%82_ufotct.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955126/%D8%B1%D9%88%D8%B9%D8%A9_%D8%A7%D9%84%D8%B4%D8%B1%D9%82_ufotct.png",
   },
   {
     id: 33,
     name: "سرايا",
-    category: "General Services", 
+    category: "General Services",
     color: "#1ABC9C",
     description: "General services and utilities",
     createdAt: "2024-01-26",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955140/%D8%B3%D8%B1%D8%A7%D9%8A%D8%A7_rxe3je.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955140/%D8%B3%D8%B1%D8%A7%D9%8A%D8%A7_rxe3je.png",
   },
   {
     id: 34,
@@ -315,7 +324,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#8E44AD",
     description: "Health or medical services",
     createdAt: "2024-03-04",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955172/%D8%B4%D8%A7%D8%AF%D9%8A_dawm7o.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955172/%D8%B4%D8%A7%D8%AF%D9%8A_dawm7o.png",
   },
   {
     id: 35,
@@ -324,7 +333,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#FFB6C1",
     description: "General services or utilities",
     createdAt: "2024-01-31",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955195/%D8%B4%D8%B0%D9%89_fobe2r.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955195/%D8%B4%D8%B0%D9%89_fobe2r.png",
   },
   {
     id: 36,
@@ -333,7 +342,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#FF6347",
     description: "Automotive services or car business",
     createdAt: "2024-02-17",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955209/%D8%B7%D8%A7%D9%81%D8%B4_x3vsli.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955209/%D8%B7%D8%A7%D9%81%D8%B4_x3vsli.png",
   },
   {
     id: 37,
@@ -342,7 +351,7 @@ export const logoDesigns: LogoDesign[] = [
     color: "#DEB887",
     description: "Dessert shop or sweets business",
     createdAt: "2024-03-11",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955223/%D9%83%D8%B1%D9%85_%D9%84%D9%88%D8%BA%D9%88_2_jnsvmw.png"
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955223/%D9%83%D8%B1%D9%85_%D9%84%D9%88%D8%BA%D9%88_2_jnsvmw.png",
   },
   {
     id: 38,
@@ -351,9 +360,8 @@ export const logoDesigns: LogoDesign[] = [
     color: "#FFB6C1",
     description: "General services or utilities",
     createdAt: "2024-02-03",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955152/%D8%B3%D9%88%D9%8A%D8%B3_bgzaff.png"
-  }
-  ,
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955152/%D8%B3%D9%88%D9%8A%D8%B3_bgzaff.png",
+  },
   {
     id: 39,
     name: "مفروشات موسى",
@@ -361,8 +369,8 @@ export const logoDesigns: LogoDesign[] = [
     color: "#27AE60",
     description: "Home furniture and interior design",
     createdAt: "2026-12-02",
-    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955234/%D9%85%D9%81%D8%B1%D9%88%D8%B4%D8%A7%D8%AA_%D9%85%D9%88%D8%B3%D9%89_jufdg1.png"
-  }
+    imageUrl: "https://res.cloudinary.com/driyz3pac/image/upload/v1770955234/%D9%85%D9%81%D8%B1%D9%88%D8%B4%D8%A7%D8%AA_%D9%85%D9%88%D8%B3%D9%89_jufdg1.png",
+  },
 ];
 
 export const categories = [
@@ -376,5 +384,5 @@ export const categories = [
   "Home & Furniture",
   "Real Estate",
   "Sports",
-  "Technology"
+  "Technology",
 ];

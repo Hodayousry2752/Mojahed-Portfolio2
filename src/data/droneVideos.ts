@@ -8,7 +8,7 @@ export const droneVideos = [
     date: "2024-06-17",
     altitude: "150m",
     color: "from-blue-500 to-cyan-500",
-    videoUrl: "public/videos/drone/EAGLE EYE Drone.mp4",
-    thumbnail: "https://images.unsplash.com/photo-1614358108424-04d03647e343?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
+    videoUrl: "https://res.cloudinary.com/driyz3pac/video/upload/v1772256882/EAGLE_EYE_Drone_2_chl6aa.mp4",
+    thumbnail: "https://res.cloudinary.com/driyz3pac/image/upload/v1772256879/Caver_o0rnso.png"
   }
 ];

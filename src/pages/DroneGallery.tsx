@@ -25,7 +25,7 @@ import {
   Star,
 } from "lucide-react";
 import { droneVideos } from "../data/droneVideos";
-import droneImg from "../assets/images/drone-img.jfif"
+// import droneImg from "../assets/images/drone-img.jfif"
 // type SortOption = "date" | "duration" | "name" | "location";
 // type ViewMode = "grid" | "list";
 
@@ -250,7 +250,7 @@ export default function DroneGallery() {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border border-blue-500/30 bg-black/50 flex items-center justify-center">
                   <img
-                    src={droneImg}
+                    src={`https://res.cloudinary.com/driyz3pac/image/upload/v1772256879/Caver_o0rnso.png`}
                     alt="DJI Mavic 3 Pro"
                     className="w-full h-full object-cover object-center transform transition-transform duration-700 group-hover:scale-105"
                     onError={(e) => {
