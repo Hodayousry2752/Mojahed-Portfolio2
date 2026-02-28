@@ -26,7 +26,7 @@ export const projectCategories: ProjectCategory[] = [
     description: 'تصميمات تجارية لجذب العملاء',
     tags: ['محلات تجارية', 'مراكز تسوق', 'مطاعم'],
     link: '/projects/commercial',
-    videoCount: 29,
+    videoCount: 33,
     image: 'https://res.cloudinary.com/driyz3pac/image/upload/v1771017873/caver_vgfy5x.png'
   },
   {
@@ -36,7 +36,7 @@ export const projectCategories: ProjectCategory[] = [
     description: 'تصميمات لمصانع ومنشآت صناعية',
     tags: ['مصانع', 'مستودعات', 'مناطق إنتاج'],
     link: '/projects/industrial',
-    videoCount: 3,
+    videoCount: 13,
     image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=2070&q=80'
   },
   {
