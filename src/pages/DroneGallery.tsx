@@ -25,7 +25,7 @@ import {
   Star,
 } from "lucide-react";
 import { droneVideos } from "../data/droneVideos";
-// import droneImg from "../assets/images/drone-img.jfif"
+import droneImg from "../assets/images/photo_5852781754677136843_y.jpg"
 // type SortOption = "date" | "duration" | "name" | "location";
 // type ViewMode = "grid" | "list";
 
@@ -244,34 +244,34 @@ export default function DroneGallery() {
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl -z-10" />
 
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-            {/* Drone image - modified for mobile */}
-            <div className="lg:w-1/3 w-full flex justify-center">
-              <div className="relative group w-full">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
-                <div className="relative w-full aspect-video md:w-80 md:h-80 md:aspect-auto rounded-2xl overflow-hidden border border-blue-500/30 bg-black/50 flex items-center justify-center">
-                  <img
-                    src={`https://res.cloudinary.com/driyz3pac/image/upload/v1772256879/Caver_o0rnso.png`}
-                    alt="DJI Mavic 3 Pro"
-                    className="w-full h-full object-contain md:object-cover transition-transform duration-700 group-hover:scale-105"
-                    onError={(e) => {
-                      e.currentTarget.style.display = "none";
-                      const parent = e.currentTarget.parentElement;
-                      if (parent) {
-                        const fallback = document.createElement("div");
-                        fallback.className = "flex items-center justify-center w-full h-full";
-                        fallback.innerHTML = `<svg class="w-24 h-24 text-blue-400" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 2L2 7v10l10 5 10-5V7l-10-5z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 12l4-2v6"/><circle cx="12" cy="12" r="2"/></svg>`;
-                        parent.appendChild(fallback);
-                      }
-                    }}
-                  />
-                </div>
-                <div className="absolute -top-3 -right-3 bg-gradient-to-r from-amber-500 to-orange-500 text-black text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
-                  <Star className="w-3 h-3 fill-current" />
-                  <span>{t("droneGallery.droneFeatures.title")}</span>
-                </div>
-              </div>
-            </div>
-
+            {/* Drone image */}
+           
+<div className="lg:w-1/3 w-full flex justify-center">
+  <div className="relative group w-full">
+    <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
+    <div className="relative w-full aspect-video md:w-80 md:h-80 md:aspect-auto rounded-2xl overflow-hidden bg-black/50 flex items-center justify-center">
+      <img
+        src={droneImg}
+        alt="DJI Mavic 3 Pro"
+        className="w-full h-full object-cover md:object-contain transition-transform duration-700 group-hover:scale-105"
+        onError={(e) => {
+          e.currentTarget.style.display = "none";
+          const parent = e.currentTarget.parentElement;
+          if (parent) {
+            const fallback = document.createElement("div");
+            fallback.className = "flex items-center justify-center w-full h-full";
+            fallback.innerHTML = `<svg class="w-24 h-24 text-blue-400" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 2L2 7v10l10 5 10-5V7l-10-5z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 12l4-2v6"/><circle cx="12" cy="12" r="2"/></svg>`;
+            parent.appendChild(fallback);
+          }
+        }}
+      />
+    </div>
+    <div className="absolute -top-3 -right-3 bg-gradient-to-r from-amber-500 to-orange-500 text-black text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
+      <Star className="w-3 h-3 fill-current" />
+      <span>{t("droneGallery.droneFeatures.title")}</span>
+    </div>
+  </div>
+</div>
             {/* Features text */}
             <div className="lg:w-2/3 space-y-5">
               <h2 className="text-3xl md:text-4xl font-bold">
