@@ -23,8 +23,8 @@ export const industrialVideos: VideoType[] = [
   {
     id: 3,
     title: "3",
-    duration: "8:10",
-    videoUrl: "..",
+    duration: "1:05",
+    videoUrl: "https://res.cloudinary.com/driyz3pac/video/upload/v1772506516/3_yq3dik.mp4",
     thumbnail: "https://res.cloudinary.com/driyz3pac/image/upload/v1772252126/3_v7u7oy.png",
     date: "2025-03-05",
     color: "from-red-500/20 to-rose-500/20",

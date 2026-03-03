@@ -34,8 +34,8 @@ export const corporateVideos: VideoType[] = [
   {
     id: 3,
     title: "3",
-    duration: "5:27",
-    videoUrl: "public/videos/Corporate Coverage & Events/ONE RUN 2025.mp4",
+    duration: "0:50",
+    videoUrl: "https://res.cloudinary.com/driyz3pac/video/upload/v1772508906/3_tcm36t.mp4",
     thumbnail: "https://res.cloudinary.com/driyz3pac/image/upload/v1772255066/3_qxb7nv.png",
     date: "2025-05-29",
     color: "from-yellow-500/20 to-orange-500/20",
@@ -52,8 +52,8 @@ export const corporateVideos: VideoType[] = [
   {
     id: 5,
     title: "5",
-    duration: "5:23",
-    videoUrl: "public/videos/Corporate Coverage & Events/Video Full.mp4",
+    duration: "1:09",
+    videoUrl: "https://res.cloudinary.com/driyz3pac/video/upload/v1772508907/5_bz3xvk.mp4",
     thumbnail: "https://res.cloudinary.com/driyz3pac/image/upload/v1772255080/5_gqvgyy.png",
     date: "2025-08-06",
     color: "from-red-500/20 to-rose-500/20",
@@ -61,8 +61,8 @@ export const corporateVideos: VideoType[] = [
   {
     id: 6,
     title: "6",
-    duration: "11:07",
-    videoUrl: "public/videos/Corporate Coverage & Events/بطولة شهداء سلواد 2.mp4",
+    duration: "1:13",
+    videoUrl: "https://res.cloudinary.com/driyz3pac/video/upload/v1772508906/6_usjkcz.mp4",
     thumbnail: "https://res.cloudinary.com/driyz3pac/image/upload/v1772255082/6_l4rcne.png",
     date: "2025-07-31",
     color: "from-indigo-500/20 to-violet-500/20",

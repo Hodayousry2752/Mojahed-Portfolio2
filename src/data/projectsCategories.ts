@@ -37,7 +37,7 @@ export const projectCategories: ProjectCategory[] = [
     tags: ['مصانع', 'مستودعات', 'مناطق إنتاج'],
     link: '/projects/industrial',
     videoCount: 13,
-    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=2070&q=80'
+    image: 'https://res.cloudinary.com/driyz3pac/image/upload/v1772511794/caver_azem42.png'
   },
   {
     id: 'medical',
