@@ -21,7 +21,7 @@ export default function AboutHero() {
   const { t } = useTranslation();
   const [current, setCurrent] = useState(0);
 
-  // Preload all images without hidingهم
+  // Preload all images
   useEffect(() => {
     profileImages.forEach((src) => {
       const img = new Image();
@@ -67,12 +67,12 @@ export default function AboutHero() {
           </ul>
         </motion.div>
 
-        {/* IMAGE SLIDER */}
+        {/* Image slider - all images fully visible without cropping */}
         <motion.div
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2 }}
-          className="relative w-full max-w-md mx-auto overflow-hidden rounded-2xl shadow-2xl"
+          className="relative w-full max-w-md mx-auto overflow-hidden rounded-2xl shadow-2xl h-96 bg-black/40 flex items-center justify-center"
         >
           <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full" />
 
@@ -81,7 +81,7 @@ export default function AboutHero() {
               key={current}
               src={profileImages[current]}
               alt={`Profile ${current + 1}`}
-              className="relative z-10 w-full h-96 object-cover rounded-2xl"
+              className="relative z-10 w-full h-full object-contain rounded-2xl"
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -100 }}

@@ -244,15 +244,15 @@ export default function DroneGallery() {
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl -z-10" />
 
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-            {/* Drone image */}
-            <div className="lg:w-1/3 flex justify-center">
-              <div className="relative group">
+            {/* Drone image - modified for mobile */}
+            <div className="lg:w-1/3 w-full flex justify-center">
+              <div className="relative group w-full">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
-                <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border border-blue-500/30 bg-black/50 flex items-center justify-center">
+                <div className="relative w-full aspect-video md:w-80 md:h-80 md:aspect-auto rounded-2xl overflow-hidden border border-blue-500/30 bg-black/50 flex items-center justify-center">
                   <img
                     src={`https://res.cloudinary.com/driyz3pac/image/upload/v1772256879/Caver_o0rnso.png`}
                     alt="DJI Mavic 3 Pro"
-                    className="w-full h-full object-cover object-center transform transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-full object-contain md:object-cover transition-transform duration-700 group-hover:scale-105"
                     onError={(e) => {
                       e.currentTarget.style.display = "none";
                       const parent = e.currentTarget.parentElement;
