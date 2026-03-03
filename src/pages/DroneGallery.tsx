@@ -248,7 +248,7 @@ export default function DroneGallery() {
            
 <div className="lg:w-1/3 w-full flex justify-center">
   <div className="relative group w-full">
-    <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
+    <div className="absolute inset-0  rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
     <div className="relative w-full aspect-video md:w-80 md:h-80 md:aspect-auto rounded-2xl overflow-hidden bg-black/50 flex items-center justify-center">
       <img
         src={droneImg}
