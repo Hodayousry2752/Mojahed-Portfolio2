@@ -245,11 +245,10 @@ export default function DroneGallery() {
 
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             {/* Drone image */}
-           
 <div className="lg:w-1/3 w-full flex justify-center">
-  <div className="relative group w-full">
+  <div className="relative group w-full ">
     <div className="absolute inset-0  rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
-    <div className="relative w-full aspect-video md:w-80 md:h-80 md:aspect-auto rounded-2xl overflow-hidden bg-black/50 flex items-center justify-center">
+    <div className="relative w-full aspect-video md:w-80 md:h-80 lg:w-96  md:aspect-auto rounded-2xl overflow-hidden bg-black/50 flex items-center justify-center">
       <img
         src={droneImg}
         alt="DJI Mavic 3 Pro"
